@@ -3,7 +3,7 @@ def unsafe?(speed)
 		return true
 	end
 	if speed < 40
-		return false
+		return true
 	end
 end
 
